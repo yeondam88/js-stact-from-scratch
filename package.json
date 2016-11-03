@@ -1,12 +1,23 @@
 {
-  "name": "js-stack-from-scratch",
-  "version": "1.0.0",
-  "description": "Learning full stack JavaScript from scratch",
-  "main": "index.js",
-  "author": "Yeondam",
-  "license": "MIT",
-  "scripts": {
-    "start": "node ."
-  },
-  "dependencies": {}
+    "name": "js-stack-from-scratch",
+    "version": "1.0.0",
+    "description": "Learning full stack JavaScript from scratch",
+    "main": "index.js",
+    "author": "Yeondam",
+    "license": "MIT",
+    "scripts": {
+        "start": "gulp"
+    },
+    "babel": {
+        "presets": [
+            "latest"
+        ]
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "babel-preset-latest": "^6.16.0",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2"
+    }
 }
