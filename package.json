@@ -4,5 +4,9 @@
   "description": "Learning full stack JavaScript from scratch",
   "main": "index.js",
   "author": "Yeondam",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
 }
