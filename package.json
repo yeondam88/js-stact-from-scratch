@@ -1,0 +1,8 @@
+{
+  "name": "js-stack-from-scratch",
+  "version": "1.0.0",
+  "description": "Learning full stack JavaScript from scratch",
+  "main": "index.js",
+  "author": "Yeondam",
+  "license": "MIT"
+}
